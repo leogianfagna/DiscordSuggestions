@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Quicksand;
+}
+
+#container-geral {
+    display: flex;
+    height: 100vh; /* Uso vh para garantir que ocupe a tela inteira */
+    width: 100vw; /* Ocupa toda a largura da viewport */
+    overflow: hidden; /* Esconde qualquer conteúdo que exceda este contêiner */
+}
+
+#left-panel {
+    background-color: #2b2d31;
+    width: 15%; /* Define a largura fixa */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#right-panel {
+    background-color: #313338;
+    width: 85%; /* Define a largura complementar */
+    display: flex;
+    flex-direction: column; /* Isso faz com que o filho cresça corretamente */
+    overflow-y: auto; /* Aplica rolagem aqui */
+}
+
+#cards-sugestoes {
+    flex-grow: 1; /* Cresce para preencher o espaço disponível no container flex */
+    margin: 3% 10%;
+    padding-right: 20px; /* Espaço para não sobrepor texto à barra de rolagem */
+}
+
+.servidores {
+    background: none;
+    border: none;
+    color: #8a9ba1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.servidoresTitle {
+    color: white;
+    font-size: 18px;
+}
+
+.land-info p {
+    color: #bcbebe;
+}
+
+.land-info {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Espaço entre os itens */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+.card {
+    background-color: #2b2d31;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-ideia {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.card-id {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.card-votos {
+    display: flex;
+    justify-content: space-between; /* Separar os itens para cada extremo */
+    align-items: center; /* Alinhar verticalmente os itens */
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.votos {
+    display: flex;
+    gap: 10px;
+}
+
+.card-autor {
+    margin-top: 0;
+    margin-left: auto; /* Empurrar o autor para a direita */
+    font-size: 0.8em;
+}

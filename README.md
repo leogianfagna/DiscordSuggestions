@@ -1,0 +1,1 @@
+Nosso servidor permite que jogadores façam sugestões usando um bot no Discord e algumas sugestões são desenvolvidas e implementadas dentro do servidor. Para facilitar, criei essa página que mostra as sugestões implementadas usando HTML puro.
